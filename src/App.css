@@ -3,9 +3,21 @@
   height: 15vh;
   display: flex;
   justify-content: space-evenly;
+  background-color: black;
 }
 
 
+.menu {
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .nav-logo {
-  
+  width: 200px;
+}
+
+.menu-item {
+  list-style: none;
+  justify-content: space-around;
 }
