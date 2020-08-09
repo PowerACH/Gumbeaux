@@ -1,0 +1,11 @@
+.nav-container {
+  border: 2px black solid;
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.nav-logo {
+  
+}
