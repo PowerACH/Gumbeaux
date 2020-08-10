@@ -1,9 +1,8 @@
 .nav-container {
-  border: 2px black solid;
-  height: 15vh;
+  height: 6vh;
   display: flex;
   justify-content: space-evenly;
-  background-color: black;
+  background-color: rgb(5, 5, 5, 0.3);
 }
 
 
@@ -19,5 +18,31 @@
 
 .menu-item {
   list-style: none;
-  justify-content: space-around;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: black;
+  padding-left: 40px;
+  
+}
+
+.menu-location,
+.menu-menu,
+.menu-giftcert,
+.menu-careers {
+  border-right: 2px black solid;
+  padding-right: 50px;
+  
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-inner-container {
+  border: 2px red solid;
+  width: 50%;
+
 }
