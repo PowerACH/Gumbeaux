@@ -1,28 +1,30 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import image1 from '../Assets/1.png'
-import image2 from '../Assets/2.png'
+import image1 from '../Assets/Taste.png'
+// import image2 from '../Assets/2.png'
 import image3 from '../Assets/3.png'
-
+import Button from 'react-bootstrap/Button'
+import '../App.css'
 
 export default function Jumbotron() {
     return (
         <div>
-           <Carousel>
+           <Carousel className = "carousel">
             <Carousel.Item>
                 <img
                 className="d-block w-100"
                 src={image1}
                 alt="First slide" 
                 />
+                
             </Carousel.Item>
-            <Carousel.Item>
+            {/* <Carousel.Item>
                 <img
                 className="d-block w-100"
                 src={image2}
-                alt="Third slide"
+                alt="Second slide"
                 />
-            </Carousel.Item>
+            </Carousel.Item> */}
             <Carousel.Item>
                 <img
                 className="d-block w-100"

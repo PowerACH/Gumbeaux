@@ -1,3 +1,7 @@
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
 .nav-container {
   height: 6vh;
   display: flex;
@@ -18,6 +22,7 @@
 
 .menu-item {
   list-style: none;
+  margin-top: 10px;
 }
 
 .menu-item a {
@@ -36,13 +41,13 @@
   
 }
 
-.info-container {
-  display: flex;
-  flex-direction: row;
-}
 
 .info-inner-container {
-  border: 2px red solid;
-  width: 50%;
+  background-image: url(https://previews.123rf.com/images/titco/titco1706/titco170600724/80545400-white-organic-wood-texture-light-wooden-background-old-washed-wood-.jpg);
+  padding: 40px;
+}  
 
+.header-image {
+  width: 100%;
 }
+
