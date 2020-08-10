@@ -1,15 +1,9 @@
 import React from 'react'
 import '../App.css';
-import logo2 from '../Assets/logo2.png';
 
 export default function NavBar() {
     return (
         <div className = "nav-container">
-            {/* <div className = "brand">
-                <a href= "/">
-                    <img src= {logo2} className = "nav-logo" alt="Gumbeaux" />
-                </a>
-            </div> */}
             <nav>
                 <ul className = "menu">
                     <li className = "menu-item menu-location" >

@@ -45,9 +45,25 @@
 .info-inner-container {
   background-image: url(https://previews.123rf.com/images/titco/titco1706/titco170600724/80545400-white-organic-wood-texture-light-wooden-background-old-washed-wood-.jpg);
   padding: 40px;
+  
 }  
 
 .header-image {
   width: 100%;
 }
 
+.main-footer {
+  background-color: rgb(5, 5, 5, 0.3);
+}
+
+/* Google Map Component */
+
+.map-container {
+  margin: 0;
+  padding: 0;
+}
+
+.inner-map-container {
+  height: 100px;
+  width: 100%;
+}
